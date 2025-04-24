@@ -11,9 +11,8 @@ html {
 .page {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin: auto;
-  padding-top: 130px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -49,6 +48,11 @@ h6 {
 ul,
 ol {
   list-style: none;
+}
+
+img,
+video {
+  object-position: center;
 }
 
 fieldset {
@@ -274,7 +278,7 @@ button {
 
 .content__list-container {
   position: relative;
-  max-width: 399px;
+  width: 399px;
   height: 298px;
   overflow: auto;
 }
@@ -363,7 +367,6 @@ button {
   width: 194px;
   height: 103px;
   object-fit: cover;
-  object-position: center;
 }
 
 .more-button {
